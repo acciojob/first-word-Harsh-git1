@@ -3,7 +3,7 @@ function firstWord(s) {
 	let arr = s.split(" ");
 	let ans; 
 
-	for(int i=0; i<arr.length; i++) {
+	for(let i=0; i<arr.length; i++) { 
 		if(arr[i] != "") return arr[i];
 	}
 	return "";
